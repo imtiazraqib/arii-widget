@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  padding: 20px;
+  background-color: black;
+  border-radius: 20px;
+  color: aliceblue;
+}
+
+#arii {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(
+    180deg,
+    rgba(109, 28, 221, 1) 0%,
+    rgba(14, 33, 101, 1) 100%
+  );
+  padding: 3px;
+  border-radius: 20px;
+}
+
+.arii-button {
+  background-color: black;
+  border-radius: 20px;
+  padding: 8px 25px;
+}
+
+#arii:hover {
+  transform: translate(-15px, -15px);
+  transition: 300ms ease-in-out;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
