@@ -11,3 +11,40 @@ body {
   border-radius: 20px;
   color: aliceblue;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+#arii {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none;
+  color: white;
+  background: #e7c7af;
+  padding: 3px;
+  border-radius: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+.arii-button {
+  background-color: #8196af;
+  border-radius: 25px;
+  padding: 8px 15px;
+}
+
+#arii:hover {
+  transform: translate(-15px, -15px);
+  transition: 300ms ease-in-out;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.wrapper > p {
+  margin: 0px;
+  font-weight: bold;
+}
