@@ -48,8 +48,10 @@ const iframeContainerDiv = `<div class="iframe-container hide">
   frameborder="0"></iframe>
 </div>`;
 
-document.body.innerHTML += widget;
-document.body.innerHTML += iframeContainerDiv;
+if (window.location == window.parent.location) {
+  document.body.innerHTML += widget;
+  document.body.innerHTML += iframeContainerDiv;
+}
 
 const widgetBtn = document.getElementById("arii");
 const iframeContainer = document.querySelector(".iframe-container");
