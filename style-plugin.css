@@ -2,7 +2,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 300vh;
 }
 
 .container {
@@ -51,7 +51,7 @@ body {
 }
 
 .iframe-container {
-  position: absolute;
+  position: fixed;
   bottom: 100px;
   right: 10px;
   background-color: #fafafa;
