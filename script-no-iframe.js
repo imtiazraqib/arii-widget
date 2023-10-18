@@ -35,4 +35,7 @@ onclick="window.open(this.href, 'new', 'width=1280,height=720'); return false;"
 </div>
 </a>`;
 
-document.body.innerHTML += widget;
+// Check and see if page is in iFrame
+if (window.location == window.parent.location) {
+  document.body.innerHTML += widget;
+}
