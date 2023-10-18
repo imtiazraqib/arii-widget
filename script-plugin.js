@@ -69,7 +69,7 @@ closeBtn.addEventListener("click", () => {
   iframeContainer.classList.toggle("show-iframe");
   setTimeout(() => {
     iframeContainer.classList.add("hide");
-    iframeContainer.classList.toggle("maximize-iframe");
+    iframeContainer.classList.remove("maximize-iframe");
   }, 100);
 });
 
