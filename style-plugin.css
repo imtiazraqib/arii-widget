@@ -64,12 +64,12 @@ body {
   opacity: 0;
 }
 
-.top-bar > img {
+.iframe-c-top-bar > img {
   width: 20px;
   cursor: pointer;
 }
 
-.top-bar {
+.iframe-c-top-bar {
   padding: 10px;
   display: flex;
   align-items: center;

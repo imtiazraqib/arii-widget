@@ -33,7 +33,7 @@ id="arii">
 </div>`;
 
 const iframeContainerDiv = `<div class="iframe-container hide">
-<div class="top-bar">
+<div class="iframe-c-top-bar">
   <img
     id="maximize"
     src="https://uploads-ssl.webflow.com/646e756c4526f6fa246bdca4/65303f4b0db5313db40e986e_icons8-maximize-50.png" />
